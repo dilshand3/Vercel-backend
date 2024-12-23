@@ -1,0 +1,20 @@
+{
+  "name": "vercel-backend",
+  "version": "1.0.0",
+  "description": "testing vercel backend service",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./index.js"
+  },
+  "author": "dilshan.d3",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "env": "^0.0.2",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
