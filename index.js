@@ -8,10 +8,7 @@ import testRouter from "./route/test.route.js";
 
 const app = express();
 const port = process.env.PORT || 2000
-app.use(cors({
-    origin: process.env.CORS_ORIGIN,
-    credentials:true
-}))
+app.use(cors())
 app.use(express.json());
 app.use("/vercel", testRouter)
 
