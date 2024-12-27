@@ -1,5 +1,5 @@
 import Gemini from "gemini-ai";
-const API_KEY = "AIzaSyDgFXKfoTSFXBFbUlCv_fOSitQZOGeTEeo";
+const API_KEY = process.env.API_KEY;
 const gemini = new Gemini(API_KEY);
 
 
